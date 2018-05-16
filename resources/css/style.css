@@ -33,9 +33,11 @@ html
 h1 {font-family: sans-serif;
     height: 32px;}
 
-.navigation {padding-left: 825px;
-             font-size: 2em;
+.navigation {display: flex;
+             flex-direction: row;
+             padding-left: 825px;
              padding-right: 24px;
+             font-size: 2em;
              }
 
 .navigation a {padding-right: 16px;
@@ -50,8 +52,10 @@ h1 {font-family: sans-serif;
 /* Banner */
 
 .banner {display: flex;
-         justify-content: center;
+         justify-content center;
          }
 
+
 .banner h2 {padding-left: 20px;
+
 }
