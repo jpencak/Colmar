@@ -63,6 +63,5 @@ h1 {font-family: sans-serif;
 .banner img {padding-top: 32px;}
 
 .section {display: flex;
-          justify-content: center;}
-
-.content {display: flex;}
+          flex-direction: column;
+          }
