@@ -52,10 +52,17 @@ h1 {font-family: sans-serif;
 /* Banner */
 
 .banner {display: flex;
-         justify-content center;
+         justify-content: center;
+         background-color: lightgray;
          }
 
 
 .banner h2 {padding-left: 20px;
-
 }
+
+.banner img {padding-top: 32px;}
+
+.section {display: flex;
+          justify-content: center;}
+
+.content {display: flex;}
