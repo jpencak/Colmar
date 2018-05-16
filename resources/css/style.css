@@ -1,0 +1,57 @@
+html
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Header */
+
+.header {
+  display: inline-flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 64px;
+}
+
+.logo img {height: 48px;
+           width: 42px;
+           padding-top: 10px;}
+
+.logo {
+       padding-left: 24px;}
+
+h1 {font-family: sans-serif;
+    height: 32px;}
+
+.navigation {padding-left: 825px;
+             font-size: 2em;
+             padding-right: 24px;
+             }
+
+.navigation a {padding-right: 16px;
+               color: gray;
+               font-family: sans-serif;
+}
+
+.school {color: gray;
+}
+
+
+/* Banner */
+
+.banner {display: flex;
+         justify-content: center;
+         }
+
+.banner h2 {padding-left: 20px;
+}
