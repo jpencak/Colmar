@@ -92,13 +92,12 @@ h1 {font-family: sans-serif;
 /* Information */
 
 .information {padding-top: 32px;
-              display: flex;
-              align-items: flex-start;
-              flex-wrap: wrap;}
+              
+            }
 
-.information img { padding-right: 30px;
+.information img { padding-right: 32px;
                    padding-bottom: 32px;
-                   padding-left: 30px;
+                   padding-left: 28px;
 }
 
 .main {
@@ -116,10 +115,4 @@ h1 {font-family: sans-serif;
 .main span {padding-left: 30px;
 }
 
-.second .orientation {display: flex;
-                      flex-direction: column;
-                      justify-content: center;
-                      align-items: center;
-
-
-       }
+.second
