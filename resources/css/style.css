@@ -102,6 +102,7 @@ h1 {font-family: sans-serif;
 }
 
 .main {
+
      }
 
 .main h3 {margin: 0px;
@@ -115,7 +116,10 @@ h1 {font-family: sans-serif;
 .main span {padding-left: 30px;
 }
 
-.second {
+.second .orientation {display: flex;
+                      flex-direction: column;
+                      justify-content: center;
+                      align-items: center;
 
 
        }
