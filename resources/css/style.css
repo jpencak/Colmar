@@ -62,7 +62,7 @@ h1 {font-family: sans-serif;
           padding-left: 75px;
 }
 
-.content h2 {font-size: 50px;
+.content h2 {font-size: 55px;
              color: #4b4a4b;
              font-family: "Heebo", sans-serif;
              font-weight: bolder;
@@ -92,7 +92,7 @@ h1 {font-family: sans-serif;
 /* Information */
 
 .information {padding-top: 32px;
-              
+
             }
 
 .information img { padding-right: 32px;
@@ -100,19 +100,34 @@ h1 {font-family: sans-serif;
                    padding-left: 28px;
 }
 
-.main {
-
+.main {width: 1150px;
      }
 
 .main h3 {margin: 0px;
           padding-left: 30px;
+          font-size: 45px;
+          color: #4b4a4b;
+          font-family: "Heebo", sans-serif;
+          font-weight: bolder;
 }
 
 .main p {padding-left: 30px;
          padding-bottom: 32px;
+         color: gray;
+         font-size: 30px;
+         width: 1000px;
+         margin-bottom: 20px;
 }
 
 .main span {padding-left: 30px;
+            color: black;
+            font-size: 20px;
 }
 
-.second
+ .second {display: flex;}
+
+ .orientation {
+
+
+
+                      }
