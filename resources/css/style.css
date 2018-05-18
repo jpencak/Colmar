@@ -39,40 +39,40 @@ h1 {font-family: sans-serif;
 /* Banner */
 
 .banner {display: flex;
-         justify-content: center;
          background-color: lightgray;
          background-size: cover;
-         padding-right: 285px;
 }
 
 .banner img {padding-top: 32px;
              padding-right: 24px;
              padding-bottom: 32px;
-             padding-left: 60px;
+             padding-left: 28px;
 }
 
-.section {display: flex;
-          flex-direction: column;
-          justify-content: center;
+.section {width: 60%;
+  display: flex;
 }
 
-.content {display: flex;
-          flex-direction: column;
-          text-align: left;
-          padding-left: 75px;
+.content {width: 40%;
+          padding-top: 150px;
+          padding-left: 65px;
 }
 
-.content h2 {font-size: 55px;
+.content h2 {font-size: 50px;
              color: #4b4a4b;
              font-family: "Heebo", sans-serif;
              font-weight: bolder;
              margin-bottom: 0px;
+             padding-left: 24px;
+             line-height: 120%;
 }
 
 .content p {padding-bottom: 35px;
             font-size: 32px;
             color: #4b4a4b;
             font-family: "Heebo", sans-serif;
+            padding-left: 24px;
+            line-height: 125%;
 }
 
 .button {display: inline-block;
@@ -87,6 +87,7 @@ h1 {font-family: sans-serif;
          font-family: "Heebo", sans-serif;
          padding-bottom: 10px;
          color: white;
+         margin-left: 25px;
 }
 
 /* Information */
@@ -126,4 +127,38 @@ h1 {font-family: sans-serif;
 }
 
  .second {width: 40%;
+          display: flex;
+          flex-direction: column;
+          padding-left: 65px;
+
+}
+
+.orientation {display: flex;
+
+}
+
+.orientation .image {}
+
+.orientation .info h4 {font-family: "Roboto", sans-serif;
+                       font-size: 32px;
+                       color: #4b4a4b;
+                       padding-top: 20px;
+                       margin-bottom: 0px;}
+
+.orientation .info p {font-family: "Roboto", sans-serif;
+                      font-family: 16px;
+                      color: gray;
+}
+
+.orientation .info a {text-decoration: none;
+                      font-family: "Roboto", sans-serif;
+                      font-size: 16px;
+}
+
+.campus {display: flex;
+         padding-top: 15px;
+}
+
+.lecture {display: flex;
+          padding-top: 15px;
 }
