@@ -92,15 +92,14 @@ h1 {font-family: sans-serif;
 /* Information */
 
 .information {padding-top: 32px;
-
-            }
+}
 
 .information img { padding-right: 32px;
                    padding-bottom: 32px;
                    padding-left: 28px;
 }
 
-.main {width: 1150px;
+.main {width: 60%;
      }
 
 .main h3 {margin: 0px;
@@ -124,10 +123,5 @@ h1 {font-family: sans-serif;
             font-size: 20px;
 }
 
- .second {display: flex;}
-
- .orientation {
-
-
-
-                      }
+ .second {width: 40%;
+}
