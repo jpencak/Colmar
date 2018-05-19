@@ -94,6 +94,7 @@ h1 {font-family: sans-serif;
 
 .information {padding-top: 32px;
               display: flex;
+              padding-bottom: 32px;
 }
 
 .information img { padding-right: 32px;
@@ -130,14 +131,12 @@ h1 {font-family: sans-serif;
           display: flex;
           flex-direction: column;
           padding-left: 65px;
-
 }
 
 .orientation {display: flex;
-
 }
 
-.orientation .image {}
+
 
 .orientation .info h4 {font-family: "Roboto", sans-serif;
                        font-size: 32px;
@@ -159,6 +158,65 @@ h1 {font-family: sans-serif;
          padding-top: 15px;
 }
 
+.campus .info h4 {font-family: "Roboto", sans-serif;
+                  font-size: 32px;
+                  color: #4b4a4b;
+                  padding-top: 20px;
+                  margin-bottom: 0px;
+}
+
+.campus .info p {font-family: "Roboto", sans-serif;
+                 font-family: 16px;
+                 color: gray;
+}
+
+.campus .info a {text-decoration: none;
+                 font-family: "Roboto", sans-serif;
+                 font-size: 16px;
+}
+
 .lecture {display: flex;
           padding-top: 15px;
+          background-color: lightgray;
+          background-size: cover;
+}
+
+.lecture .info h4 {font-family: "Roboto", sans-serif;
+                   font-size: 32px;
+                   color: #4b4a4b;
+                   padding-top: 20px;
+                   margin-bottom: 0px;}
+
+.lecture .info p {font-family: "Roboto", sans-serif;
+                  font-family: 16px;
+                  color: gray;
+}
+
+.lecture .info a {text-decoration: none;
+                  font-family: "Roboto", sans-serif;
+                  font-size: 16px;
+}
+
+/* Courses */
+
+.container {background-color: #f0f0ed;
+            background-size: cover;
+}
+
+.title {padding-top: 32px;
+        text-align: center;
+}
+
+.title h3 {font-family: "Heebo", sans-serif;
+           font-size: 45px;
+           font-weight: bolder;
+           color: #4b4a4b;
+}
+
+.top {display: flex;
+      justify-content: center;
+}
+
+.bottom {display: flex;
+         justify-content: center;
 }
