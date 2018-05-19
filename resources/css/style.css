@@ -245,6 +245,7 @@ h1 {font-family: sans-serif;
 .bottom {display: flex;
          justify-content: space-around;
          padding-bottom: 32px;
+         height: 454px;
 }
 
 .bottom h4 {font-family: "Roboto", sans-serif;
