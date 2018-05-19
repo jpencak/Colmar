@@ -201,6 +201,8 @@ h1 {font-family: sans-serif;
 
 .container {background-color: #f0f0ed;
             background-size: cover;
+            padding-left: 72px;
+            padding-right: 72px;
 }
 
 .title {padding-top: 32px;
@@ -214,9 +216,96 @@ h1 {font-family: sans-serif;
 }
 
 .top {display: flex;
-      justify-content: center;
+      justify-content: space-around;
+      padding-top: 32px;
+      padding-bottom: 32px;
+
 }
 
+.top h4 {font-family: "Roboto", sans-serif;
+         font-size: 32px;
+         color: #4b4a4b;
+         margin: 0px;
+         padding-top: 16px;
+         padding-left: 50px;
+         padding-bottom: 16px;}
+
+.top span {font-family: "Roboto", sans-serif;
+           font-family: 18px;
+           color: #abacae;
+           padding-left: 50px;
+           padding-bottom: 8px;
+}
+
+.top p {font-family: "Roboto", sans-serif;
+        font-family: 18px;
+        color: #abacae;
+        padding-left: 50px;}
+
 .bottom {display: flex;
-         justify-content: center;
+         justify-content: space-around;
+         padding-bottom: 32px;
+}
+
+.bottom h4 {font-family: "Roboto", sans-serif;
+              font-size: 32px;
+              color: #4b4a4b;
+              margin: 0px;
+              padding-top: 16px;
+              padding-left: 50px;
+              padding-bottom: 16px;}
+
+.bottom span {font-family: "Roboto", sans-serif;
+                font-family: 18px;
+                color: #abacae;
+                padding-left: 50px;
+                padding-bottom: 8px;}
+
+.bottom p {font-family: "Roboto", sans-serif;
+             font-family: 18px;
+             color: #abacae;
+             padding-left: 50px;}
+
+/* Courses Images */
+
+.software img {width: 532px;
+}
+
+.computer img {width: 532px;
+               padding-left: 0px;
+               padding-right: 0px;
+}
+
+.design img {width: 532px;
+}
+
+.data img {width: 532px;
+}
+
+.business img {width: 532px;
+               padding-left: 0px;
+               padding-right: 0px;
+}
+
+.marketing img {width: 532px;
+}
+
+/* Courses Container Background */
+
+.software {background-color: white;
+}
+
+.computer {background-color: white;
+}
+
+.design {background-color: white;
+}
+
+.data {background-color: white;
+}
+
+.business {background-color: white;
+}
+
+.marketing {background-color: white;
 }
