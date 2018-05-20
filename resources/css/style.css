@@ -103,7 +103,7 @@ h1 {font-family: sans-serif;
 }
 
 .main {width: 60%;
-     }
+}
 
 .main h3 {margin: 0px;
           padding-left: 30px;
@@ -135,8 +135,6 @@ h1 {font-family: sans-serif;
 
 .orientation {display: flex;
 }
-
-
 
 .orientation .info h4 {font-family: "Roboto", sans-serif;
                        font-size: 32px;
@@ -219,7 +217,6 @@ h1 {font-family: sans-serif;
       justify-content: space-around;
       padding-top: 32px;
       padding-bottom: 32px;
-
 }
 
 .top h4 {font-family: "Roboto", sans-serif;
@@ -228,7 +225,8 @@ h1 {font-family: sans-serif;
          margin: 0px;
          padding-top: 16px;
          padding-left: 50px;
-         padding-bottom: 16px;}
+         padding-bottom: 16px;
+}
 
 .top span {font-family: "Roboto", sans-serif;
            font-family: 18px;
@@ -254,18 +252,21 @@ h1 {font-family: sans-serif;
               margin: 0px;
               padding-top: 16px;
               padding-left: 50px;
-              padding-bottom: 16px;}
+              padding-bottom: 16px;
+}
 
 .bottom span {font-family: "Roboto", sans-serif;
                 font-family: 18px;
                 color: #abacae;
                 padding-left: 50px;
-                padding-bottom: 8px;}
+                padding-bottom: 8px;
+}
 
 .bottom p {font-family: "Roboto", sans-serif;
              font-family: 18px;
              color: #abacae;
-             padding-left: 50px;}
+             padding-left: 50px;
+}
 
 /* Courses Images */
 
@@ -309,4 +310,18 @@ h1 {font-family: sans-serif;
 }
 
 .marketing {background-color: white;
+}
+
+/* Thesis */
+
+.thesis {background-color: white;
+         background-size: cover;
+         padding-top: 32px;
+         text-align: center;
+}
+
+.thesis h3 {font-family: "Heebo", sans-serif;
+           font-size: 45px;
+           font-weight: bolder;
+           color: #4b4a4b;
 }
