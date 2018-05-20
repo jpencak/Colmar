@@ -50,7 +50,7 @@ h1 {font-family: sans-serif;
 }
 
 .section {width: 60%;
-  display: flex;
+          display: flex;
 }
 
 .content {width: 40%;
@@ -95,11 +95,12 @@ h1 {font-family: sans-serif;
 .information {padding-top: 32px;
               display: flex;
               padding-bottom: 32px;
+
 }
 
-.information img { padding-right: 32px;
-                   padding-bottom: 32px;
-                   padding-left: 28px;
+.information img {padding-right: 32px;
+                  padding-bottom: 32px;
+                  padding-left: 28px;
 }
 
 .main {width: 60%;
@@ -124,13 +125,12 @@ h1 {font-family: sans-serif;
 .main span {padding-left: 30px;
             color: black;
             font-size: 20px;
-
 }
 
- .second {width: 40%;
-          display: flex;
-          flex-direction: column;
-          padding-left: 65px;
+.second {width: 40%;
+         display: flex;
+         flex-direction: column;
+         padding-left: 24px;
 }
 
 .orientation {display: flex;
@@ -183,7 +183,8 @@ h1 {font-family: sans-serif;
                    font-size: 32px;
                    color: #4b4a4b;
                    padding-top: 20px;
-                   margin-bottom: 0px;}
+                   margin-bottom: 0px;
+}
 
 .lecture .info p {font-family: "Roboto", sans-serif;
                   font-family: 16px;
@@ -197,25 +198,23 @@ h1 {font-family: sans-serif;
 
 /* Courses */
 
-.container {background-color: #f0f0ed;
+.courses   {background-color: #f0f0ed;
             background-size: cover;
-            padding-left: 72px;
-            padding-right: 72px;
-}
-
-.title {padding-top: 32px;
-        text-align: center;
+            padding-bottom: 32px;
 }
 
 .title h3 {font-family: "Heebo", sans-serif;
            font-size: 45px;
            font-weight: bolder;
            color: #4b4a4b;
+           margin: 0px;
+           padding-top: 32px;
+           padding-bottom: 32px;
+           text-align: center;
 }
 
 .top {display: flex;
       justify-content: space-around;
-      padding-top: 32px;
       padding-bottom: 32px;
 }
 
@@ -238,7 +237,10 @@ h1 {font-family: sans-serif;
 .top p {font-family: "Roboto", sans-serif;
         font-family: 18px;
         color: #abacae;
-        padding-left: 50px;}
+        padding-left: 50px;
+        margin: 0px;
+        padding-top: 8px;
+        padding-bottom: 24px;}
 
 .bottom {display: flex;
          justify-content: space-around;
@@ -266,6 +268,9 @@ h1 {font-family: sans-serif;
              font-family: 18px;
              color: #abacae;
              padding-left: 50px;
+             margin: 0px;
+             padding-top: 8px;
+             padding-bottom: 24px;
 }
 
 /* Courses Images */
@@ -316,12 +321,82 @@ h1 {font-family: sans-serif;
 
 .thesis {background-color: white;
          background-size: cover;
-         padding-top: 32px;
-         text-align: center;
 }
 
 .thesis h3 {font-family: "Heebo", sans-serif;
            font-size: 45px;
            font-weight: bolder;
            color: #4b4a4b;
+           text-align: center;
+           margin: 0px;
+           padding-top: 32px;
+           padding-bottom: 32px;
+}
+
+.exhibit {display: flex;
+}
+
+.primary video {height: 606px;
+                width: 1104px;
+}
+
+.primary h4 {margin: 0px;
+             padding-left: 30px;
+             padding-top: 24px;
+             font-size: 45px;
+             color: #4b4a4b;
+             font-family: "Heebo", sans-serif;
+             font-weight: bolder;
+}
+
+.primary p {padding-left: 30px;
+            padding-bottom: 32px;
+            color: gray;
+            font-size: 30px;
+            width: 1000px;
+            margin-bottom: 20px;
+}
+
+.secondary {display: flex;
+            flex-direction: column;
+            width: 40%;
+            padding-left: 24px;
+}
+
+.fisma {display: flex;
+        background-color: lightgray;
+        background-size: cover;
+}
+
+.fisma img {padding-right: 32px;
+            
+}
+
+.fisma .info h4 {font-family: "Roboto", sans-serif;
+                 font-size: 32px;
+                 color: #4b4a4b;
+                 padding-top: 20px;
+                 margin-bottom: 0px;
+}
+
+.fisma .info p {font-family: "Roboto", sans-serif;
+                font-family: 16px;
+                color: gray;}
+
+.now {display: flex;
+      padding-top: 15px;
+}
+
+.now img {padding-right: 32px;
+}
+
+.now .info h4 {font-family: "Roboto", sans-serif;
+               font-size: 32px;
+               color: #4b4a4b;
+               padding-top: 60px;
+               margin-bottom: 0px;}
+
+.now .info p {font-family: "Roboto", sans-serif;
+              font-family: 16px;
+              color: gray;
 }
