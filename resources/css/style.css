@@ -1,11 +1,9 @@
 
 /* Header */
 
-.header {
-  display: inline-flex;
-  justify-content: space-around;
-  align-items: center;
-  height: 64px;
+.header {display: inline-flex;
+         align-items: center;
+         height: 64px;
 }
 
 .logo img {height: 48px;
@@ -34,7 +32,6 @@ h1 {font-family: sans-serif;
 
 .school {color: gray;
 }
-
 
 /* Banner */
 
@@ -275,26 +272,26 @@ h1 {font-family: sans-serif;
 
 /* Courses Images */
 
-.software img {width: 532px;
+.software img {width: 600px;
 }
 
-.computer img {width: 532px;
+.computer img {width: 600px;
                padding-left: 0px;
                padding-right: 0px;
 }
 
-.design img {width: 532px;
+.design img {width: 600px;
 }
 
-.data img {width: 532px;
+.data img {width: 600px;
 }
 
-.business img {width: 532px;
+.business img {width: 600px;
                padding-left: 0px;
                padding-right: 0px;
 }
 
-.marketing img {width: 532px;
+.marketing img {width: 600px;
 }
 
 /* Courses Container Background */
@@ -338,6 +335,7 @@ h1 {font-family: sans-serif;
 
 .primary video {height: 606px;
                 width: 1104px;
+                padding-right: 24px;
 }
 
 .primary h4 {margin: 0px;
@@ -360,7 +358,6 @@ h1 {font-family: sans-serif;
 .secondary {display: flex;
             flex-direction: column;
             width: 40%;
-            padding-left: 24px;
 }
 
 .fisma {display: flex;
@@ -368,9 +365,10 @@ h1 {font-family: sans-serif;
         background-size: cover;
 }
 
-.fisma img {padding-right: 32px;
-            
+.fisma img {padding: 32px;
 }
+
+
 
 .fisma .info h4 {font-family: "Roboto", sans-serif;
                  font-size: 32px;
@@ -381,22 +379,44 @@ h1 {font-family: sans-serif;
 
 .fisma .info p {font-family: "Roboto", sans-serif;
                 font-family: 16px;
-                color: gray;}
+                color: gray;
+}
 
 .now {display: flex;
       padding-top: 15px;
 }
 
-.now img {padding-right: 32px;
+.now img {padding: 32px;
 }
 
 .now .info h4 {font-family: "Roboto", sans-serif;
                font-size: 32px;
                color: #4b4a4b;
                padding-top: 60px;
-               margin-bottom: 0px;}
+               margin-bottom: 0px;
+}
 
 .now .info p {font-family: "Roboto", sans-serif;
               font-family: 16px;
               color: gray;
+}
+
+/* Footer */
+
+footer {padding-top: 16px;
+        border-top: 1px solid lightgray;
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 50px;
+}
+
+.copyright h5 {padding-left: 24px;
+               color: gray;
+               margin: 0px;
+               font-size: 16px;
+}
+
+.disclosure span {font-size: 16px;
+                  color: gray;
+                  padding-right: 24px;
 }
