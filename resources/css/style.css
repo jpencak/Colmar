@@ -127,7 +127,7 @@ h1 {font-family: sans-serif;
 .second {width: 40%;
          display: flex;
          flex-direction: column;
-         padding-left: 24px;
+         padding-left: 28px;
 }
 
 .orientation {display: flex;
@@ -213,6 +213,8 @@ h1 {font-family: sans-serif;
 .top {display: flex;
       justify-content: space-around;
       padding-bottom: 32px;
+      padding-left: 72px;
+      padding-right: 72px;
 }
 
 .top h4 {font-family: "Roboto", sans-serif;
@@ -243,6 +245,8 @@ h1 {font-family: sans-serif;
          justify-content: space-around;
          padding-bottom: 32px;
          height: 454px;
+         padding-left: 72px;
+         padding-right: 72px;
 }
 
 .bottom h4 {font-family: "Roboto", sans-serif;
@@ -272,26 +276,26 @@ h1 {font-family: sans-serif;
 
 /* Courses Images */
 
-.software img {width: 600px;
+.software img {width: 550px;
 }
 
-.computer img {width: 600px;
+.computer img {width: 550px;
                padding-left: 0px;
                padding-right: 0px;
 }
 
-.design img {width: 600px;
+.design img {width: 550px;
 }
 
-.data img {width: 600px;
+.data img {width: 550px;
 }
 
-.business img {width: 600px;
+.business img {width: 550px;
                padding-left: 0px;
                padding-right: 0px;
 }
 
-.marketing img {width: 600px;
+.marketing img {width: 550px;
 }
 
 /* Courses Container Background */
@@ -333,9 +337,9 @@ h1 {font-family: sans-serif;
 .exhibit {display: flex;
 }
 
-.primary video {height: 606px;
-                width: 1104px;
-                padding-right: 24px;
+.primary video {height: 623px;
+                width: 1162px;
+
 }
 
 .primary h4 {margin: 0px;
