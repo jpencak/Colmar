@@ -18,10 +18,16 @@ h1 {font-family: sans-serif;
     height: 32px;
 }
 
-.logos {display: inline-flex;
-        justify-content: space-between;
-        align-items: center;
+.logos {display: none;
         }
+
+.logos img {height: 48px;
+            width: 42px;
+            padding-top: 10px;
+            padding-left: 35px;
+            padding-right: 40px;}
+
+.camp {padding-left: 25px;}
 
 .navigation {display: flex;
              flex-direction: row;
@@ -203,6 +209,9 @@ h1 {font-family: sans-serif;
 .courses   {background-color: #f0f0ed;
             background-size: cover;
             padding-bottom: 32px;
+}
+
+.categories span {display: none;
 }
 
 .title h3 {font-family: "Heebo", sans-serif;
@@ -430,6 +439,12 @@ footer {padding-top: 16px;
                   padding-right: 24px;
 }
 
+/* Media Queries */
+
+/* Header Section */
+@media only screen and (max-width: 480px) {
+.header {height: 64px;}
+
 @media only screen and (max-width: 480px) {
 h1 {display: none;
 }
@@ -440,6 +455,234 @@ h1 {display: none;
         align-items: center;
 }
 
-@media only screen and (min-width: 768px) {
-.logos {display: none;
+/* Banner Section */
+
+@media only screen and (max-width: 480px) {
+.section {display: flex;
+         flex-direction: column;}
+}
+
+@media only screen and (max-width: 480px) {
+.section img {height: 300px;
+              width: 435px;
+              padding: 0px;
+              margin: 0;}
+
+@media only screen and (max-width: 480px) {
+.content {padding-top: 0px;
+          width: 375px;
+          padding: 0px;
+}
+
+@media only screen and (max-width: 480px) {
+.content h2 {font-size: 45px;
+}
+
+@media only screen and (max-width: 480px) {
+.content p {font-size: 25px;}
+}
+
+@media only screen and (max-width: 480px) {
+.button {margin-left: 16px;
+         margin-bottom: 32px;
+         width: 405px;
+}
+
+/* Information Section */
+
+@media only screen and (max-width: 480px) {
+.main {display: none;
+}
+
+@media only screen and (max-width: 480px) {
+.orientation {display: flex;
+              flex-direction: column;
+}
+
+@media only screen and (max-width: 480px) {
+.orientation img {width: 403px;
+                  height: 250px;
+                  padding-left: 0px;
+                  margin-left: -10px;
+}
+
+@media only screen and (max-width: 480px) {
+.orientation .info {width: 300px; }
+}
+
+@media only screen and (max-width: 480px) {
+.orientation .info h4 {margin-top: 0px;
+                       padding-top: 0px;
+}
+
+@media only screen and (max-width: 480px) {
+.campus {display: flex;
+         flex-direction: column;
+}
+
+@media only screen and (max-width: 480px) {
+.campus img {width: 403px;
+             height: 250px;
+             padding-left: 0px;
+             margin-left: -10px;
+}
+
+@media only screen and (max-width: 480px) {
+.campus .info {width: 300px;
+}
+
+@media only screen and (max-width: 480px) {
+.campus .info h4 {margin-top: 0px;
+                  padding-top: 0px;
+}
+
+@media only screen and (max-width: 480px) {
+.lecture {display: flex;
+          flex-direction: column;
+          background-color: white;
+}
+
+@media only screen and (max-width: 480px) {
+.lecture img {width: 403px;
+              height: 250px;
+              padding-left: 0px;
+              margin-left: -10px;
+}
+
+@media only screen and (max-width: 480px) {
+.lecture .info {width: 300px;
+                padding-bottom: 32px;
+}
+
+@media only screen and (max-width: 480px) {
+.lecture .info h4 {margin-top: 0px;
+                   padding-top: 0px;
+}
+
+/* Courses Section */
+
+@media only screen and (max-width: 480px) {
+.title h3 {padding-top: 0px;
+}
+
+@media only screen and (max-width: 480px) {
+.courses {background-color: white;
+}
+
+@media only screen and (max-width: 480px) {
+.top {display: none;
+}
+
+@media only screen and (max-width: 480px) {
+.bottom {display: none;
+}
+
+@media only screen and (max-width: 480px) {
+.categories {width: 403px;
+             margin-left: 16px;
+}
+
+@media only screen and (max-width: 480px) {
+.categories span {display: flex;
+                  flex-direction: column;
+}
+
+@media only screen and (max-width: 480px) {
+.categories .software {background-color: lightgray;
+                       font-size: 32px;
+                       font-family: "Roboto", sans-serif;
+                       color: #4b4a4b;
+                       padding-left: 16px;
+                       padding-top: 16px;
+                       padding-bottom: 24px;
+                       margin-bottom: 8px;
+}
+
+@media only screen and (max-width: 480px) {
+.categories .computer {background-color: lightgray;
+                       font-size: 32px;
+                       font-family: "Roboto", sans-serif;
+                       color: #4b4a4b;
+                       padding-left: 16px;
+                       padding-top: 16px;
+                       padding-bottom: 24px;
+                       margin-bottom: 8px;
+}
+
+@media only screen and (max-width: 480px) {
+.categories .design {background-color: lightgray;
+                       font-size: 32px;
+                       font-family: "Roboto", sans-serif;
+                       color: #4b4a4b;
+                       padding-left: 16px;
+                       padding-top: 16px;
+                       padding-bottom: 24px;
+                       margin-bottom: 8px;
+}
+
+@media only screen and (max-width: 480px) {
+.categories .data {background-color: lightgray;
+                       font-size: 32px;
+                       font-family: "Roboto", sans-serif;
+                       color: #4b4a4b;
+                       padding-left: 16px;
+                       padding-top: 16px;
+                       padding-bottom: 24px;
+                       margin-bottom: 8px;
+}
+
+@media only screen and (max-width: 480px) {
+.categories .business {background-color: lightgray;
+                       font-size: 32px;
+                       font-family: "Roboto", sans-serif;
+                       color: #4b4a4b;
+                       padding-left: 16px;
+                       padding-top: 16px;
+                       padding-bottom: 24px;
+                       margin-bottom: 8px;
+}
+
+@media only screen and (max-width: 480px) {
+.categories .marketing {background-color: lightgray;
+                       font-size: 32px;
+                       font-family: "Roboto", sans-serif;
+                       color: #4b4a4b;
+                       padding-left: 16px;
+                       padding-top: 16px;
+                       padding-bottom: 24px;
+}
+
+/* Thesis Section */
+
+@media only screen and (max-width: 480px) {
+.exhibit {height: 250px;
+          padding-bottom: 24px;
+}
+
+@media only screen and (max-width: 480px) {
+.primary video {height: 250px;
+                width: 435px;
+}
+
+@media only screen and (max-width: 480px) {
+.primary h4 {display: none;
+}
+
+@media only screen and (max-width: 480px) {
+.primary p {display: none;
+}
+
+/* Footer */
+
+@media only screen and (max-width: 480px) {
+footer {border: 0px;
+        padding-bottom: 0px;}
+}
+
+@media only screen and (max-width: 480px) {
+.copyright {padding-top: 16px;
+}
+
+@media only screen and (max-width: 480px) {
+.disclosure {display: none;}
 }
