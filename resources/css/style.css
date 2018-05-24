@@ -449,7 +449,7 @@ footer {padding-top: 16px;
 /* Media Queries */
 
 /* Header Section */
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 800px) {
 .header {height: 64px;
 }
 h1 {display: none;
@@ -463,6 +463,9 @@ h1 {display: none;
 
 /* Banner Section */
 
+.banner {width: 435px;
+  margin: 0px;
+}
 .section {display: flex;
          flex-direction: column;
 }
@@ -533,6 +536,7 @@ h1 {display: none;
 /* Courses Section */
 
 .title h3 {padding-top: 0px;
+           width: 400px;
 }
 .courses {background-color: white;
 }
@@ -601,6 +605,8 @@ h1 {display: none;
 }
 
 /* Thesis Section */
+.thesis {width: 400px;
+}
 .exhibit {height: 250px;
           padding-bottom: 24px;
 }
