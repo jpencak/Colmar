@@ -450,7 +450,7 @@ footer {padding-top: 16px;
 /* Media Queries */
 
 /* Header Section */
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 750px) {
 body {margin: 0px;
 }
 .header {height: 64px;
@@ -466,14 +466,14 @@ h1 {display: none;
 
 /* Banner Section */
 
-.banner {width: 435px;
+.banner {width: 750px;
   margin: 0px;
 }
 .section {display: flex;
          flex-direction: column;
 }
-.section img {height: 300px;
-              width: 435px;
+.section img {height: 400px;
+              width: 750px;
               padding: 0px;
               margin: 0;
 }
