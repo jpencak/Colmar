@@ -458,6 +458,8 @@ h1 {display: none;
         justify-content: space-between;
         align-items: center;
 }
+.navigation {display: none;
+}
 
 /* Banner Section */
 
@@ -608,6 +610,8 @@ h1 {display: none;
 .primary h4 {display: none;
 }
 .primary p {display: none;
+}
+.secondary {display: none;
 }
 
 /* Footer */
