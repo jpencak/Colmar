@@ -48,7 +48,7 @@ h1 {font-family: sans-serif;
 
 .banner {display: flex;
          background-color: lightgray;
-         background-size: cover;         
+         background-size: cover;
 }
 
 .banner img {padding-top: 32px;
@@ -145,7 +145,7 @@ h1 {font-family: sans-serif;
 .second {width: 40%;
          display: flex;
          flex-direction: column;
-         padding-left: 28px;
+         padding-left: 52px;
 }
 
 .orientation {display: flex;
@@ -449,14 +449,14 @@ footer {padding-top: 16px;
 /* Media Queries */
 
 /* Header Section */
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 600px) {
 .header {height: 64px;}
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 600px) {
 h1 {display: none;
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 600px) {
 .logos {display: inline-flex;
         justify-content: space-between;
         align-items: center;
@@ -464,32 +464,32 @@ h1 {display: none;
 
 /* Banner Section */
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 600px) {
 .section {display: flex;
          flex-direction: column;}
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 600px) {
 .section img {height: 300px;
               width: 435px;
               padding: 0px;
               margin: 0;}
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 600px) {
 .content {padding-top: 0px;
           width: 375px;
           padding: 0px;
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 600px) {
 .content h2 {font-size: 45px;
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 600px) {
 .content p {font-size: 25px;}
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 600px) {
 .button {margin-left: 16px;
          margin-bottom: 32px;
          width: 405px;
