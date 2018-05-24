@@ -450,7 +450,7 @@ footer {padding-top: 16px;
 /* Media Queries */
 
 /* Header Section */
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 750px) {
 body {margin: 0px;
 }
 .header {height: 64px;
