@@ -461,7 +461,6 @@ h1 {display: none;
 
 /* Banner Section */
 
-@media only screen and (max-width: 480px) {
 .section {display: flex;
          flex-direction: column;
 }
