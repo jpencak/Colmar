@@ -2,7 +2,7 @@ body {margin: 0px;
 }
 /* Header */
 
-.header {display: inline-flex;
+header  {display: flex;
          align-items: center;
          height: 64px;
 }
