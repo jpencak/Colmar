@@ -32,16 +32,16 @@ h1 {font-family: sans-serif;
 .camp {padding-left: 25px;
 }
 
-.navigation {display: flex;
-             flex-direction: row;
-             padding-left: 950px;
-             padding-right: 24px;
-             font-size: 1.60em;
+nav {display: flex;
+     flex-direction: row;
+     padding-left: 950px;
+     padding-right: 24px;
+     font-size: 1.60em;
 }
 
-.navigation a {padding-right: 16px;
-               color: gray;
-               font-family: sans-serif;
+nav a {padding-right: 16px;
+       color: gray;
+       font-family: sans-serif;
 }
 
 .school {color: gray;
@@ -469,7 +469,7 @@ h1 {display: none;
 
 .login {padding-left: 70px;
 }
-.navigation {display: none;
+nav {display: none;
 }
 
 /* Banner Section */
