@@ -20,15 +20,17 @@ h1 {font-family: sans-serif;
 }
 
 .logos {display: none;
-        }
+}
 
 .logos img {height: 48px;
             width: 42px;
             padding-top: 10px;
             padding-left: 35px;
-            padding-right: 40px;}
+            padding-right: 40px;
+}
 
-.camp {padding-left: 25px;}
+.camp {padding-left: 25px;
+}
 
 .navigation {display: flex;
              flex-direction: row;
@@ -105,7 +107,6 @@ h1 {font-family: sans-serif;
 .information {padding-top: 32px;
               display: flex;
               padding-bottom: 32px;
-
 }
 
 .information img {padding-right: 32px;
@@ -272,28 +273,28 @@ h1 {font-family: sans-serif;
 }
 
 .bottom h4 {font-family: "Roboto", sans-serif;
-              font-size: 32px;
-              color: #4b4a4b;
-              margin: 0px;
-              padding-top: 16px;
-              padding-left: 50px;
-              padding-bottom: 16px;
+            font-size: 32px;
+            color: #4b4a4b;
+            margin: 0px;
+            padding-top: 16px;
+            padding-left: 50px;
+            padding-bottom: 16px;
 }
 
 .bottom span {font-family: "Roboto", sans-serif;
-                font-family: 18px;
-                color: #abacae;
-                padding-left: 50px;
-                padding-bottom: 8px;
+              font-family: 18px;
+              color: #abacae;
+              padding-left: 50px;
+              padding-bottom: 8px;
 }
 
 .bottom p {font-family: "Roboto", sans-serif;
-             font-family: 18px;
-             color: #abacae;
-             padding-left: 50px;
-             margin: 0px;
-             padding-top: 8px;
-             padding-bottom: 24px;
+           font-family: 18px;
+           color: #abacae;
+           padding-left: 50px;
+           margin: 0px;
+           padding-top: 8px;
+           padding-bottom: 24px;
 }
 
 /* Courses Images */
@@ -361,7 +362,6 @@ h1 {font-family: sans-serif;
 
 .primary video {height: 623px;
                 width: 1162px;
-
 }
 
 .primary h4 {margin: 0px;
@@ -393,8 +393,6 @@ h1 {font-family: sans-serif;
 
 .fisma img {padding: 32px;
 }
-
-
 
 .fisma .info h4 {font-family: "Roboto", sans-serif;
                  font-size: 32px;
@@ -457,9 +455,19 @@ body {margin: 0px;
 }
 h1 {display: none;
 }
+
+.logo {padding-left: 50px;
+}
 .logos {display: inline-flex;
         justify-content: space-between;
         align-items: center;
+        padding-left: 70px;
+}
+
+.camp {padding-right: 80px;
+}
+
+.login {padding-left: 70px;
 }
 .navigation {display: none;
 }
@@ -467,12 +475,12 @@ h1 {display: none;
 /* Banner Section */
 
 .banner {width: 750px;
-  margin: 0px;
+         margin: 0px;
 }
 .section {display: flex;
-         flex-direction: column;
+          flex-direction: column;
 }
-.section img {height: 400px;
+.section img {height: 425px;
               width: 750px;
               padding: 0px;
               margin: 0;
@@ -481,13 +489,18 @@ h1 {display: none;
           width: 375px;
           padding: 0px;
 }
-.content h2 {font-size: 45px;
+.content h2 {font-size: 80px;
+             padding-left: 40px;
+             width: 600px;
 }
-.content p {font-size: 25px;
+.content p {font-size: 45px;
+            width: 600px;
+            padding-left: 40px;
 }
-.button {margin-left: 16px;
+.button {margin-left: 45px;
          margin-bottom: 32px;
-         width: 405px;
+         width: 600px;
+         padding-left: 30px;
 }
 
 /* Information Section */
@@ -497,36 +510,59 @@ h1 {display: none;
 .orientation {display: flex;
               flex-direction: column;
 }
-.orientation img {width: 403px;
-                  height: 250px;
-                  padding-left: 0px;
+.orientation img {width: 625px;
+                  height: 400px;
+                  padding-left: 30px;
                   margin-left: -10px;
+
 }
 .orientation .info {width: 300px;
 }
 .orientation .info h4 {margin-top: 0px;
                        padding-top: 0px;
+                       padding-left: 30px;
+                       font-size: 50px;
+                       width: 400px;
+}
+.orientation .info p {padding-left: 30px;
+                      font-size: 25px;
+                      width: 400px;
+}
+.orientation .info a {padding-left: 30px;
+                      font-size: 25px;
+                      width: 400px;
 }
 .campus {display: flex;
          flex-direction: column;
 }
-.campus img {width: 403px;
-             height: 250px;
-             padding-left: 0px;
+.campus img {width: 625px;
+             height: 400px;
+             padding-left: 30px;
              margin-left: -10px;
 }
 .campus .info {width: 300px;
 }
 .campus .info h4 {margin-top: 0px;
                   padding-top: 0px;
+                  padding-left: 30px;
+                  font-size: 50px;
+                  width: 400px;
+}
+.campus .info p {padding-left: 30px;
+                 font-size: 25px;
+                 width: 400px;
+}
+.campus .info a {padding-left: 30px;
+                 font-size: 25px;
+                 width: 400px;
 }
 .lecture {display: flex;
           flex-direction: column;
           background-color: white;
 }
-.lecture img {width: 403px;
-              height: 250px;
-              padding-left: 0px;
+.lecture img {width: 625px;
+              height: 400px;
+              padding-left: 30px;
               margin-left: -10px;
 }
 .lecture .info {width: 300px;
@@ -534,12 +570,25 @@ h1 {display: none;
 }
 .lecture .info h4 {margin-top: 0px;
                    padding-top: 0px;
+                   padding-left: 30px;
+                   font-size: 50px;
+                   width: 400px;
 }
-
+.lecture .info p {padding-left: 30px;
+                  font-size: 25px;
+                  width: 400px;
+}
+.lecture .info a {padding-left: 30px;
+                  font-size: 25px;
+                  width: 400px;
+}
 /* Courses Section */
 
 .title h3 {padding-top: 0px;
            width: 400px;
+           font-size: 80px;
+           width: 500px;
+           padding-left: 125px;
 }
 .courses {background-color: white;
 }
@@ -554,67 +603,88 @@ h1 {display: none;
                   flex-direction: column;
 }
 .categories .software {background-color: lightgray;
-                       font-size: 32px;
+                       font-size: 55px;
                        font-family: "Roboto", sans-serif;
                        color: #4b4a4b;
                        padding-left: 16px;
                        padding-top: 16px;
                        padding-bottom: 24px;
                        margin-bottom: 8px;
+                       width: 625px;
+                       margin-left: 30px;
 }
 .categories .computer {background-color: lightgray;
-                       font-size: 32px;
+                       font-size: 55px;
                        font-family: "Roboto", sans-serif;
                        color: #4b4a4b;
                        padding-left: 16px;
                        padding-top: 16px;
                        padding-bottom: 24px;
                        margin-bottom: 8px;
+                       width: 625px;
+                       margin-left: 30px;
 }
 .categories .design {background-color: lightgray;
-                       font-size: 32px;
-                       font-family: "Roboto", sans-serif;
-                       color: #4b4a4b;
-                       padding-left: 16px;
-                       padding-top: 16px;
-                       padding-bottom: 24px;
-                       margin-bottom: 8px;
+                     font-size: 55px;
+                     font-family: "Roboto", sans-serif;
+                     color: #4b4a4b;
+                     padding-left: 16px;
+                     padding-top: 16px;
+                     padding-bottom: 24px;
+                     margin-bottom: 8px;
+                     width: 625px;
+                     margin-left: 30px;
 }
 .categories .data {background-color: lightgray;
-                       font-size: 32px;
-                       font-family: "Roboto", sans-serif;
-                       color: #4b4a4b;
-                       padding-left: 16px;
-                       padding-top: 16px;
-                       padding-bottom: 24px;
-                       margin-bottom: 8px;
+                   font-size: 55px;
+                   font-family: "Roboto", sans-serif;
+                   color: #4b4a4b;
+                   padding-left: 16px;
+                   padding-top: 16px;
+                   padding-bottom: 24px;
+                   margin-bottom: 8px;
+                   width: 625px;
+                   margin-left: 30px;
 }
 .categories .business {background-color: lightgray;
-                       font-size: 32px;
+                       font-size: 55px;
                        font-family: "Roboto", sans-serif;
                        color: #4b4a4b;
                        padding-left: 16px;
                        padding-top: 16px;
                        padding-bottom: 24px;
                        margin-bottom: 8px;
+                       width: 625px;
+                       margin-left: 30px;
 }
 .categories .marketing {background-color: lightgray;
-                       font-size: 32px;
+                       font-size: 55px;
                        font-family: "Roboto", sans-serif;
                        color: #4b4a4b;
                        padding-left: 16px;
                        padding-top: 16px;
                        padding-bottom: 24px;
+                       width: 625px;
+                       margin-left: 30px;
 }
 
 /* Thesis Section */
 .thesis {width: 400px;
 }
+
+.thesis h3 {padding-top: 0px;
+            width: 400px;
+            font-size: 80px;
+            width: 500px;
+            padding-left: 125px;
+}
 .exhibit {height: 250px;
           padding-bottom: 24px;
 }
-.primary video {height: 250px;
-                width: 435px;
+.primary video {width: 630px;
+                height: 400px;
+                padding-left: 30px;
+                margin-left: 20px;
 }
 .primary h4 {display: none;
 }
@@ -626,8 +696,11 @@ h1 {display: none;
 /* Footer */
 footer {border: 0px;
         padding-bottom: 0px;
+        padding-top: 140px;
 }
 .copyright {padding-top: 16px;
+            margin-left: 30px;
+            padding-bottom: 30px;
 }
 .disclosure {display: none;
 }
