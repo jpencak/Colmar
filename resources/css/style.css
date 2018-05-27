@@ -1,706 +1,845 @@
-body {margin: 0px;
+body {
+    margin: 0px;
 }
 /* Header */
 
-header  {display: flex;
-         align-items: center;
-         height: 64px;
+header  {
+    display: flex;
+    align-items: center;
+    height: 64px;
 }
 
-.logo img {height: 48px;
-           width: 42px;
-           padding-top: 10px;
+.logo img {
+    height: 48px;
+    width: 42px;
+    padding-top: 10px;
 }
 
-.logo {padding-left: 24px;
+.logo {
+    padding-left: 24px;
 }
 
-h1 {font-family: sans-serif;
+h1 {
+    font-family: sans-serif;
     height: 32px;
 }
 
-.logos {display: none;
+.logos {
+    display: none;
 }
 
-.logos img {height: 48px;
-            width: 42px;
-            padding-top: 10px;
-            padding-left: 35px;
-            padding-right: 40px;
+.logos img {
+    height: 48px;
+    width: 42px;
+    padding-top: 10px;
+    padding-left: 35px;
+    padding-right: 40px;
 }
 
-.camp {padding-left: 25px;
+.camp {
+    padding-left: 25px;
 }
 
-nav {display: flex;
-     flex-direction: row;
-     padding-left: 950px;
-     padding-right: 24px;
-     font-size: 1.60em;
+nav {
+    display: flex;
+    flex-direction: row;
+    margin-left: 50%;
+    padding-right: 24px;
+    font-size: 1.60em;
+    white-space: nowrap;
 }
 
-nav a {padding-right: 16px;
-       color: gray;
-       font-family: sans-serif;
+nav a {
+    padding-right: 16px;
+    color: gray;
+    font-family: sans-serif;
 }
 
-.school {color: gray;
+.school {
+    color: gray;
 }
 
 /* Banner */
 
-.banner {display: flex;
-         background-color: lightgray;
-         background-size: cover;
+.banner {
+    display: flex;
+    background-color: lightgray;
+    background-size: cover;
 }
 
-.banner img {padding-top: 32px;
-             padding-right: 24px;
-             padding-bottom: 32px;
-             padding-left: 28px;
-             width: 100%;
+.banner img {
+    padding-top: 32px;
+    padding-right: 24px;
+    padding-bottom: 32px;
+    padding-left: 28px;
+    width: 100%;
 }
 
-.section {width: 60%;
-          display: flex;
+.section {
+    width: 60%;
+    display: flex;
 }
 
-.content {width: 40%;
-          padding-top: 150px;
-          padding-left: 65px;
+.content {
+    width: 40%;
+    padding-top: 150px;
+    padding-left: 65px;
 }
 
-.content h2 {font-size: 50px;
-             color: #4b4a4b;
-             font-family: "Heebo", sans-serif;
-             font-weight: bolder;
-             margin-bottom: 0px;
-             padding-left: 24px;
-             line-height: 120%;
+.content h2 {
+    font-size: 50px;
+    color: #4b4a4b;
+    font-family: "Heebo", sans-serif;
+    font-weight: bolder;
+    margin-bottom: 0px;
+    padding-left: 24px;
+    line-height: 120%;
 }
 
-.content p {padding-bottom: 35px;
-            font-size: 32px;
-            color: #4b4a4b;
-            font-family: "Heebo", sans-serif;
-            padding-left: 24px;
-            line-height: 125%;
+.content p {
+    padding-bottom: 35px;
+    font-size: 32px;
+    color: #4b4a4b;
+    font-family: "Heebo", sans-serif;
+    padding-left: 24px;
+    line-height: 125%;
 }
 
-.button {display: inline-block;
-         border-radius: 0px;
-         text-align: center;
-         background-color: #4b4a4b;
-         height: 40px;
-         width: 405px;
-         text-decoration: none;
-         padding-top: 20px;
-         font-size: 24px;
-         font-family: "Heebo", sans-serif;
-         padding-bottom: 10px;
-         color: white;
-         margin-left: 25px;
+.button {
+    display: inline-block;
+    border-radius: 0px;
+    text-align: center;
+    background-color: #4b4a4b;
+    height: 40px;
+    width: 405px;
+    text-decoration: none;
+    padding-top: 20px;
+    font-size: 24px;
+    font-family: "Heebo", sans-serif;
+    padding-bottom: 10px;
+    color: white;
+    margin-left: 25px;
 }
 
 /* Information */
 
-.information {padding-top: 32px;
-              display: flex;
-              padding-bottom: 32px;
+.information {
+    padding-top: 32px;
+    display: flex;
+    padding-bottom: 32px;
 }
 
-.information img {padding-right: 32px;
-                  padding-bottom: 32px;
-                  padding-left: 28px;
+.information img {
+    padding-right: 32px;
+    padding-bottom: 32px;
+    padding-left: 28px;
 }
 
-.main {width: 60%;
+.main {
+    width: 60%;
 }
 
-.main img {width: 100%;
+.main img {
+    width: 100%;
 }
 
-.main h3 {margin: 0px;
-          padding-left: 30px;
-          font-size: 45px;
-          color: #4b4a4b;
-          font-family: "Heebo", sans-serif;
-          font-weight: bolder;
-          width: 100%;
+.main h3 {
+    margin: 0px;
+    padding-left: 30px;
+    font-size: 45px;
+    color: #4b4a4b;
+    font-family: "Heebo", sans-serif;
+    font-weight: bolder;
+    width: 100%;
 }
 
-.main p {padding-left: 30px;
-         padding-bottom: 32px;
-         color: gray;
-         font-size: 30px;
-         width: 1000px;
-         margin-bottom: 20px;
-         width: 100%;
+.main p {
+    padding-left: 30px;
+    padding-bottom: 32px;
+    color: gray;
+    font-size: 30px;
+    width: 1000px;
+    margin-bottom: 20px;
+    width: 100%;
 }
 
-.main span {padding-left: 30px;
-            color: black;
-            font-size: 20px;
-            width: 100%;
+.main span {
+    padding-left: 30px;
+    color: black;
+    font-size: 20px;
+    width: 100%;
 }
 
-.second {width: 40%;
-         display: flex;
-         flex-direction: column;
-         padding-left: 28px;
+.second {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 28px;
 }
 
-.orientation {display: flex;
+.orientation {
+    display: flex;
 }
 
-.orientation .info h4 {font-family: "Roboto", sans-serif;
-                       font-size: 32px;
-                       color: #4b4a4b;
-                       padding-top: 20px;
-                       margin-bottom: 0px;}
+.orientation .info h4 {
+    font-family: "Roboto", sans-serif;
+    font-size: 32px;
+    color: #4b4a4b;
+    padding-top: 20px;
+    margin-bottom: 0px;}
 
-.orientation .info p {font-family: "Roboto", sans-serif;
-                      font-family: 16px;
-                      color: gray;
+.orientation .info p {
+    font-family: "Roboto", sans-serif;
+    font-family: 16px;
+    color: gray;
 }
 
-.orientation .info a {text-decoration: none;
-                      font-family: "Roboto", sans-serif;
-                      font-size: 16px;
+.orientation .info a {
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
 }
 
-.campus {display: flex;
-         padding-top: 15px;
+.campus {
+    display: flex;
+    padding-top: 15px;
 }
 
-.campus .info h4 {font-family: "Roboto", sans-serif;
-                  font-size: 32px;
-                  color: #4b4a4b;
-                  padding-top: 20px;
-                  margin-bottom: 0px;
+.campus .info h4 {
+    font-family: "Roboto", sans-serif;
+    font-size: 32px;
+    color: #4b4a4b;
+    padding-top: 20px;
+    margin-bottom: 0px;
 }
 
-.campus .info p {font-family: "Roboto", sans-serif;
-                 font-family: 16px;
-                 color: gray;
+.campus .info p {
+    font-family: "Roboto", sans-serif;
+    font-family: 16px;
+    color: gray;
 }
 
-.campus .info a {text-decoration: none;
-                 font-family: "Roboto", sans-serif;
-                 font-size: 16px;
+.campus .info a {
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
 }
 
-.lecture {display: flex;
-          padding-top: 15px;
-          background-color: lightgray;
-          background-size: cover;
+.lecture {
+    display: flex;
+    padding-top: 15px;
+    background-color: lightgray;
+    background-size: cover;
 }
 
-.lecture .info h4 {font-family: "Roboto", sans-serif;
-                   font-size: 32px;
-                   color: #4b4a4b;
-                   padding-top: 20px;
-                   margin-bottom: 0px;
+.lecture .info h4 {
+    font-family: "Roboto", sans-serif;
+    font-size: 32px;
+    color: #4b4a4b;
+    padding-top: 20px;
+    margin-bottom: 0px;
 }
 
-.lecture .info p {font-family: "Roboto", sans-serif;
-                  font-family: 16px;
-                  color: gray;
+.lecture .info p {
+    font-family: "Roboto", sans-serif;
+    font-family: 16px;
+    color: gray;
 }
 
-.lecture .info a {text-decoration: none;
-                  font-family: "Roboto", sans-serif;
-                  font-size: 16px;
+.lecture .info a {
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
 }
 
 /* Courses */
 
-.courses   {background-color: #f0f0ed;
-            background-size: cover;
-            padding-bottom: 32px;
+.courses {
+    background-color: #f0f0ed;
+    background-size: cover;
+    padding-bottom: 32px;
 }
 
-.categories span {display: none;
+.categories span {
+    display: none;
 }
 
-.title h3 {font-family: "Heebo", sans-serif;
-           font-size: 45px;
-           font-weight: bolder;
-           color: #4b4a4b;
-           margin: 0px;
-           padding-top: 32px;
-           padding-bottom: 32px;
-           text-align: center;
+.title h3 {
+    font-family: "Heebo", sans-serif;
+    font-size: 45px;
+    font-weight: bolder;
+    color: #4b4a4b;
+    margin: 0px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    text-align: center;
 }
 
-.top {display: flex;
-      justify-content: space-around;
-      padding-bottom: 32px;
-      padding-left: 72px;
-      padding-right: 72px;
+.top {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 32px;
+    padding-left: 72px;
+    padding-right: 72px;
 }
 
-.top h4 {font-family: "Roboto", sans-serif;
-         font-size: 32px;
-         color: #4b4a4b;
-         margin: 0px;
-         padding-top: 16px;
-         padding-left: 50px;
-         padding-bottom: 16px;
+.top h4 {
+    font-family: "Roboto", sans-serif;
+    font-size: 32px;
+    color: #4b4a4b;
+    margin: 0px;
+    padding-top: 16px;
+    padding-left: 50px;
+    padding-bottom: 16px;
 }
 
-.top span {font-family: "Roboto", sans-serif;
-           font-family: 18px;
-           color: #abacae;
-           padding-left: 50px;
-           padding-bottom: 8px;
+.top span {
+    font-family: "Roboto", sans-serif;
+    font-family: 18px;
+    color: #abacae;
+    padding-left: 50px;
+    padding-bottom: 8px;
 }
 
-.top p {font-family: "Roboto", sans-serif;
-        font-family: 18px;
-        color: #abacae;
-        padding-left: 50px;
-        margin: 0px;
-        padding-top: 8px;
-        padding-bottom: 24px;}
-
-.bottom {display: flex;
-         justify-content: space-around;
-         padding-bottom: 32px;
-         height: 454px;
-         padding-left: 72px;
-         padding-right: 72px;
+.top p {
+    font-family: "Roboto", sans-serif;
+    font-family: 18px;
+    color: #abacae;
+    padding-left: 50px;
+    margin: 0px;
+    padding-top: 8px;
+    padding-bottom: 24px;
 }
 
-.bottom h4 {font-family: "Roboto", sans-serif;
-            font-size: 32px;
-            color: #4b4a4b;
-            margin: 0px;
-            padding-top: 16px;
-            padding-left: 50px;
-            padding-bottom: 16px;
+.bottom {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 32px;
+    height: 454px;
+    padding-left: 72px;
+    padding-right: 72px;
 }
 
-.bottom span {font-family: "Roboto", sans-serif;
-              font-family: 18px;
-              color: #abacae;
-              padding-left: 50px;
-              padding-bottom: 8px;
+.bottom h4 {
+    font-family: "Roboto", sans-serif;
+    font-size: 32px;
+    color: #4b4a4b;
+    margin: 0px;
+    padding-top: 16px;
+    padding-left: 50px;
+    padding-bottom: 16px;
 }
 
-.bottom p {font-family: "Roboto", sans-serif;
-           font-family: 18px;
-           color: #abacae;
-           padding-left: 50px;
-           margin: 0px;
-           padding-top: 8px;
-           padding-bottom: 24px;
+.bottom span {
+    font-family: "Roboto", sans-serif;
+    font-family: 18px;
+    color: #abacae;
+    padding-left: 50px;
+    padding-bottom: 8px;
+}
+
+.bottom p {
+    font-family: "Roboto", sans-serif;
+    font-family: 18px;
+    color: #abacae;
+    padding-left: 50px;
+    margin: 0px;
+    padding-top: 8px;
+    padding-bottom: 24px;
 }
 
 /* Courses Images */
 
-.software img {width: 550px;
+.software img {
+    width: 550px;
 }
 
-.computer img {width: 550px;
-               padding-left: 0px;
-               padding-right: 0px;
+.computer img {
+    width: 550px;
+    padding-left: 0px;
+    padding-right: 0px;
 }
 
-.design img {width: 550px;
+.design img {
+    width: 550px;
 }
 
-.data img {width: 550px;
+.data img {
+    width: 550px;
 }
 
-.business img {width: 550px;
-               padding-left: 0px;
-               padding-right: 0px;
+.business img {
+    width: 550px;
+    padding-left: 0px;
+    padding-right: 0px;
 }
 
-.marketing img {width: 550px;
+.marketing img {
+    width: 550px;
 }
 
 /* Courses Container Background */
 
-.software {background-color: white;
+.software {
+    background-color: white;
 }
 
-.computer {background-color: white;
+.computer {
+    background-color: white;
 }
 
-.design {background-color: white;
+.design {
+    background-color: white;
 }
 
-.data {background-color: white;
+.data {
+    background-color: white;
 }
 
-.business {background-color: white;
+.business {
+    background-color: white;
 }
 
-.marketing {background-color: white;
+.marketing {
+    background-color: white;
 }
 
 /* Thesis */
 
-.thesis {background-color: white;
-         background-size: cover;
+.thesis {
+    background-color: white;
+    background-size: cover;
 }
 
-.thesis h3 {font-family: "Heebo", sans-serif;
-           font-size: 45px;
-           font-weight: bolder;
-           color: #4b4a4b;
-           text-align: center;
-           margin: 0px;
-           padding-top: 32px;
-           padding-bottom: 32px;
+.thesis h3 {
+    font-family: "Heebo", sans-serif;
+    font-size: 45px;
+    font-weight: bolder;
+    color: #4b4a4b;
+    text-align: center;
+    margin: 0px;
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 
-.exhibit {display: flex;
+.exhibit {
+    display: flex;
 }
 
-.primary video {height: 623px;
-                width: 1162px;
+.primary video {
+    height: 623px;
+    width: 1162px;
 }
 
-.primary h4 {margin: 0px;
-             padding-left: 30px;
-             padding-top: 24px;
-             font-size: 45px;
-             color: #4b4a4b;
-             font-family: "Heebo", sans-serif;
-             font-weight: bolder;
+.primary h4 {
+    margin: 0px;
+    padding-left: 30px;
+    padding-top: 24px;
+    font-size: 45px;
+    color: #4b4a4b;
+    font-family: "Heebo", sans-serif;
+    font-weight: bolder;
 }
 
-.primary p {padding-left: 30px;
-            padding-bottom: 32px;
-            color: gray;
-            font-size: 30px;
-            width: 1000px;
-            margin-bottom: 20px;
+.primary p {
+  padding-left: 30px;
+  padding-bottom: 32px;
+  color: gray;
+  font-size: 30px;
+  width: 1000px;
+  margin-bottom: 20px;
 }
 
-.secondary {display: flex;
-            flex-direction: column;
-            width: 40%;
+.secondary {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
 }
 
-.fisma {display: flex;
-        background-color: lightgray;
-        background-size: cover;
+.fisma {
+    display: flex;
+    background-color: lightgray;
+    background-size: cover;
 }
 
-.fisma img {padding: 32px;
+.fisma img {
+    padding: 32px;
 }
 
-.fisma .info h4 {font-family: "Roboto", sans-serif;
-                 font-size: 32px;
-                 color: #4b4a4b;
-                 padding-top: 20px;
-                 margin-bottom: 0px;
+.fisma .info h4 {
+    font-family: "Roboto", sans-serif;
+    font-size: 32px;
+    color: #4b4a4b;
+    padding-top: 20px;
+    margin-bottom: 0px;
 }
 
-.fisma .info p {font-family: "Roboto", sans-serif;
-                font-family: 16px;
-                color: gray;
+.fisma .info p {
+    font-family: "Roboto", sans-serif;
+    font-family: 16px;
+    color: gray;
 }
 
-.now {display: flex;
-      padding-top: 15px;
+.now {
+    display: flex;
+    padding-top: 15px;
 }
 
-.now img {padding: 32px;
+.now img {
+    padding: 32px;
 }
 
-.now .info h4 {font-family: "Roboto", sans-serif;
-               font-size: 32px;
-               color: #4b4a4b;
-               padding-top: 60px;
-               margin-bottom: 0px;
+.now .info h4 {
+    font-family: "Roboto", sans-serif;
+    font-size: 32px;
+    color: #4b4a4b;
+    padding-top: 60px;
+    margin-bottom: 0px;
 }
 
-.now .info p {font-family: "Roboto", sans-serif;
-              font-family: 16px;
-              color: gray;
+.now .info p {
+    font-family: "Roboto", sans-serif;
+    font-family: 16px;
+    color: gray;
 }
 
 /* Footer */
 
-footer {padding-top: 16px;
-        border-top: 1px solid lightgray;
-        display: flex;
-        justify-content: space-between;
-        padding-bottom: 50px;
+footer {
+    padding-top: 16px;
+    border-top: 1px solid lightgray;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 50px;
 }
 
-.copyright h5 {padding-left: 24px;
-               color: gray;
-               margin: 0px;
-               font-size: 16px;
+.copyright h5 {
+    padding-left: 24px;
+    color: gray;
+    margin: 0px;
+    font-size: 16px;
 }
 
-.disclosure span {font-size: 16px;
-                  color: gray;
-                  padding-right: 24px;
+.disclosure span {
+    font-size: 16px;
+    color: gray;
+    padding-right: 24px;
 }
 
 /* Media Queries */
 
 /* Header Section */
+
 @media only screen and (max-width: 750px) {
-body {margin: 0px;
+body {
+    margin: 0px;
 }
-.header {height: 64px;
+.header {
+    height: 64px;
 }
-h1 {display: none;
-}
-
-.logo {padding-left: 50px;
-}
-.logos {display: inline-flex;
-        justify-content: space-between;
-        align-items: center;
-        padding-left: 70px;
+h1 {
+    display: none;
 }
 
-.camp {padding-right: 80px;
+.logo {
+    padding-left: 50px;
+}
+.logos {
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 70px;
 }
 
-.login {padding-left: 70px;
+.camp {
+    padding-right: 80px;
 }
-nav {display: none;
+
+.login {
+    padding-left: 70px;
+}
+nav {
+    display: none;
 }
 
 /* Banner Section */
 
-.banner {width: 750px;
-         margin: 0px;
+.banner {
+    width: 750px;
+    margin: 0px;
 }
-.section {display: flex;
-          flex-direction: column;
+.section {
+    display: flex;
+    flex-direction: column;
 }
-.section img {height: 425px;
-              width: 750px;
-              padding: 0px;
-              margin: 0;
+.section img {
+    height: 425px;
+    width: 750px;
+    padding: 0px;
+    margin: 0;
 }
-.content {padding-top: 0px;
-          width: 375px;
-          padding: 0px;
+.content {
+    padding-top: 0px;
+    width: 375px;
+    padding: 0px;
 }
-.content h2 {font-size: 80px;
-             padding-left: 40px;
-             width: 600px;
+.content h2 {
+    font-size: 80px;
+    padding-left: 40px;
+    width: 600px;
 }
-.content p {font-size: 45px;
-            width: 600px;
-            padding-left: 40px;
+.content p {
+    font-size: 45px;
+    width: 600px;
+    padding-left: 40px;
 }
-.button {margin-left: 45px;
-         margin-bottom: 32px;
-         width: 600px;
-         padding-left: 30px;
+.button {
+    margin-left: 45px;
+    margin-bottom: 32px;
+    width: 600px;
+    padding-left: 30px;
 }
 
 /* Information Section */
 
-.main {display: none;
+.main {
+    display: none;
 }
-.orientation {display: flex;
-              flex-direction: column;
+.orientation {
+    display: flex;
+    flex-direction: column;
 }
-.orientation img {width: 625px;
-                  height: 400px;
-                  padding-left: 30px;
-                  margin-left: -10px;
-
+.orientation img {
+    width: 625px;
+    height: 400px;
+    padding-left: 30px;
+    margin-left: -10px;
 }
-.orientation .info {width: 300px;
+.orientation .info {
+    width: 300px;
 }
-.orientation .info h4 {margin-top: 0px;
-                       padding-top: 0px;
-                       padding-left: 30px;
-                       font-size: 50px;
-                       width: 400px;
+.orientation .info h4 {
+    margin-top: 0px;
+    padding-top: 0px;
+    padding-left: 30px;
+    font-size: 50px;
+    width: 400px;
 }
-.orientation .info p {padding-left: 30px;
-                      font-size: 25px;
-                      width: 400px;
+.orientation .info p {
+    padding-left: 30px;
+    font-size: 25px;
+    width: 400px;
 }
-.orientation .info a {padding-left: 30px;
-                      font-size: 25px;
-                      width: 400px;
+.orientation .info a {
+    padding-left: 30px;
+    font-size: 25px;
+    width: 400px;
 }
-.campus {display: flex;
-         flex-direction: column;
+.campus {
+    display: flex;
+    flex-direction: column;
 }
-.campus img {width: 625px;
-             height: 400px;
-             padding-left: 30px;
-             margin-left: -10px;
+.campus img {
+    width: 625px;
+    height: 400px;
+    padding-left: 30px;
+    margin-left: -10px;
 }
-.campus .info {width: 300px;
+.campus .info {
+    width: 300px;
 }
-.campus .info h4 {margin-top: 0px;
-                  padding-top: 0px;
-                  padding-left: 30px;
-                  font-size: 50px;
-                  width: 400px;
+.campus .info h4 {
+    margin-top: 0px;
+    padding-top: 0px;
+    padding-left: 30px;
+    font-size: 50px;
+    width: 400px;
 }
-.campus .info p {padding-left: 30px;
-                 font-size: 25px;
-                 width: 400px;
+.campus .info p {
+    padding-left: 30px;
+    font-size: 25px;
+    width: 400px;
 }
-.campus .info a {padding-left: 30px;
-                 font-size: 25px;
-                 width: 400px;
+.campus .info a {
+    padding-left: 30px;
+    font-size: 25px;
+    width: 400px;
 }
-.lecture {display: flex;
-          flex-direction: column;
-          background-color: white;
+.lecture {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
 }
-.lecture img {width: 625px;
-              height: 400px;
-              padding-left: 30px;
-              margin-left: -10px;
+.lecture img {
+    width: 625px;
+    height: 400px;
+    padding-left: 30px;
+    margin-left: -10px;
 }
-.lecture .info {width: 300px;
-                padding-bottom: 32px;
+.lecture .info {
+    width: 300px;
+    padding-bottom: 32px;
 }
-.lecture .info h4 {margin-top: 0px;
-                   padding-top: 0px;
-                   padding-left: 30px;
-                   font-size: 50px;
-                   width: 400px;
+.lecture .info h4 {
+    margin-top: 0px;
+    padding-top: 0px;
+    padding-left: 30px;
+    font-size: 50px;
+    width: 400px;
 }
-.lecture .info p {padding-left: 30px;
-                  font-size: 25px;
-                  width: 400px;
+.lecture .info p {
+    padding-left: 30px;
+    font-size: 25px;
+    width: 400px;
 }
-.lecture .info a {padding-left: 30px;
-                  font-size: 25px;
-                  width: 400px;
+.lecture .info a {
+    padding-left: 30px;
+    font-size: 25px;
+    width: 400px;
 }
 /* Courses Section */
 
-.title h3 {padding-top: 0px;
-           width: 400px;
-           font-size: 80px;
-           width: 500px;
-           padding-left: 125px;
+.title h3 {
+    padding-top: 0px;
+    width: 400px;
+    font-size: 80px;
+    width: 500px;
+    padding-left: 125px;
 }
-.courses {background-color: white;
+.courses {
+    background-color: white;
 }
-.top {display: none;
+.top {
+    display: none;
 }
-.bottom {display: none;
+.bottom {
+    display: none;
 }
-.categories {width: 403px;
-             margin-left: 16px;
+.categories {
+    width: 403px;
+    margin-left: 16px;
 }
-.categories span {display: flex;
-                  flex-direction: column;
+.categories span {
+    display: flex;
+    flex-direction: column;
 }
-.categories .software {background-color: lightgray;
-                       font-size: 55px;
-                       font-family: "Roboto", sans-serif;
-                       color: #4b4a4b;
-                       padding-left: 16px;
-                       padding-top: 16px;
-                       padding-bottom: 24px;
-                       margin-bottom: 8px;
-                       width: 625px;
-                       margin-left: 30px;
+.categories .software {
+    background-color: lightgray;
+    font-size: 55px;
+    font-family: "Roboto", sans-serif;
+    color: #4b4a4b;
+    padding-left: 16px;
+    padding-top: 16px;
+    padding-bottom: 24px;
+    margin-bottom: 8px;
+    width: 625px;
+    margin-left: 30px;
 }
-.categories .computer {background-color: lightgray;
-                       font-size: 55px;
-                       font-family: "Roboto", sans-serif;
-                       color: #4b4a4b;
-                       padding-left: 16px;
-                       padding-top: 16px;
-                       padding-bottom: 24px;
-                       margin-bottom: 8px;
-                       width: 625px;
-                       margin-left: 30px;
+.categories .computer {
+    background-color: lightgray;
+    font-size: 55px;
+    font-family: "Roboto", sans-serif;
+    color: #4b4a4b;
+    padding-left: 16px;
+    padding-top: 16px;
+    padding-bottom: 24px;
+    margin-bottom: 8px;
+    width: 625px;
+    margin-left: 30px;
 }
-.categories .design {background-color: lightgray;
-                     font-size: 55px;
-                     font-family: "Roboto", sans-serif;
-                     color: #4b4a4b;
-                     padding-left: 16px;
-                     padding-top: 16px;
-                     padding-bottom: 24px;
-                     margin-bottom: 8px;
-                     width: 625px;
-                     margin-left: 30px;
+.categories .design {
+    background-color: lightgray;
+    font-size: 55px;
+    font-family: "Roboto", sans-serif;
+    color: #4b4a4b;
+    padding-left: 16px;
+    padding-top: 16px;
+    padding-bottom: 24px;
+    margin-bottom: 8px;
+    width: 625px;
+    margin-left: 30px;
 }
-.categories .data {background-color: lightgray;
-                   font-size: 55px;
-                   font-family: "Roboto", sans-serif;
-                   color: #4b4a4b;
-                   padding-left: 16px;
-                   padding-top: 16px;
-                   padding-bottom: 24px;
-                   margin-bottom: 8px;
-                   width: 625px;
-                   margin-left: 30px;
+.categories .data {
+    background-color: lightgray;
+    font-size: 55px;
+    font-family: "Roboto", sans-serif;
+    color: #4b4a4b;
+    padding-left: 16px;
+    padding-top: 16px;
+    padding-bottom: 24px;
+    margin-bottom: 8px;
+    width: 625px;
+    margin-left: 30px;
 }
-.categories .business {background-color: lightgray;
-                       font-size: 55px;
-                       font-family: "Roboto", sans-serif;
-                       color: #4b4a4b;
-                       padding-left: 16px;
-                       padding-top: 16px;
-                       padding-bottom: 24px;
-                       margin-bottom: 8px;
-                       width: 625px;
-                       margin-left: 30px;
+.categories .business {
+    background-color: lightgray;
+    font-size: 55px;
+    font-family: "Roboto", sans-serif;
+    color: #4b4a4b;
+    padding-left: 16px;
+    padding-top: 16px;
+    padding-bottom: 24px;
+    margin-bottom: 8px;
+    width: 625px;
+    margin-left: 30px;
 }
-.categories .marketing {background-color: lightgray;
-                       font-size: 55px;
-                       font-family: "Roboto", sans-serif;
-                       color: #4b4a4b;
-                       padding-left: 16px;
-                       padding-top: 16px;
-                       padding-bottom: 24px;
-                       width: 625px;
-                       margin-left: 30px;
+.categories .marketing {
+    background-color: lightgray;
+    font-size: 55px;
+    font-family: "Roboto", sans-serif;
+    color: #4b4a4b;
+    padding-left: 16px;
+    padding-top: 16px;
+    padding-bottom: 24px;
+    width: 625px;
+    margin-left: 30px;
 }
 
 /* Thesis Section */
-.thesis {width: 400px;
+
+.thesis {
+    width: 400px;
 }
 
-.thesis h3 {padding-top: 0px;
-            width: 400px;
-            font-size: 80px;
-            width: 500px;
-            padding-left: 125px;
+.thesis h3 {
+    padding-top: 0px;
+    width: 400px;
+    font-size: 80px;
+    width: 500px;
+    padding-left: 125px;
 }
-.exhibit {height: 250px;
-          padding-bottom: 24px;
+.exhibit {
+    height: 250px;
+    padding-bottom: 24px;
 }
-.primary video {width: 630px;
-                height: 400px;
-                padding-left: 30px;
-                margin-left: 20px;
+.primary video {
+    width: 630px;
+    height: 400px;
+    padding-left: 30px;
+    margin-left: 20px;
 }
-.primary h4 {display: none;
+.primary h4 {
+    display: none;
 }
-.primary p {display: none;
+.primary p {
+    display: none;
 }
-.secondary {display: none;
+.secondary {
+    display: none;
 }
 
 /* Footer */
-footer {border: 0px;
-        padding-bottom: 0px;
-        padding-top: 140px;
+
+footer {
+    border: 0px;
+    padding-bottom: 0px;
+    padding-top: 140px;
 }
-.copyright {padding-top: 16px;
-            margin-left: 30px;
-            padding-bottom: 30px;
+.copyright {
+    padding-top: 16px;
+    margin-left: 30px;
+    padding-bottom: 30px;
 }
-.disclosure {display: none;
+.disclosure {
+    display: none;
 }
